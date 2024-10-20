@@ -3,7 +3,7 @@ requests
 pyaudio
 SpeechRecognition
 pyttsx3
-togetherai
+together
 audio-recorder-streamlit
 Pillow
 av

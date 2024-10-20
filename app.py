@@ -54,6 +54,10 @@ import re
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
+import re
+from dotenv import load_dotenv
+
+load_dotenv()
 
 TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
 
